@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+	<title>This is first website</title></head>
+<body>
+	<div class="header">Header</div>
+<div class="nav" style="display: block;">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Focus</li>
+		<li><a href="#">Contact us</a></li>
+
+	</ul>
+
+</div>
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+	<button type="button" onclick="innerHTML("hello world")>click me </button>
+<br/>
+<h1 style="display: block;">This is first heading</h1>
+<p id="demo"></p>
+<script type="text/javascript">
+	document.getElementById('demo').innerHTML="This is my first javascript"
+</script>
+</body>
+</html>
